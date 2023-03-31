@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "User App PG",
+            "database": "app",
+            "username": "app_user",
+            "password": "app_password"
+        }
+    ],
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "python.linting.enabled": true
+}
