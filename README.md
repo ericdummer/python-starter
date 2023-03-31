@@ -2,10 +2,11 @@
 A template for django apps with dev containers and docker compoase
 
 ## Setup
-1. Copy `.env.template` to `.env` and update any setting you choose. If you do change those `.evn` values, make sure the `.vscode/settings.json` is also updated.
-Notice: The `.env` file is ignored by git. 
+1. Copy `.env.template` to `.env` and update any setting you choose. If you do change those `.env` values, make sure the `.vscode/settings.json` is also updated.
+
+**Notice:** The `.env` file is ignored by git. 
 2. Reload the folder in a container. 
-3. If there is no bash terminal, you can add one by clicking the `+` button. Then run the django start project command. You can replace `app` with your project name if you choose
+3. If there is no bash terminal, you can add one by clicking the `+` button. Then run the *django-admin start project* command. You can replace `app` with your project name if you choose
 ```bash
     django-admin startproject app 
 ```
